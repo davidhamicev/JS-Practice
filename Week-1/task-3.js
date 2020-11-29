@@ -24,7 +24,7 @@ function addBlock() {
 
 function delBlock() {
 	const block = document.querySelector('.block');
-	block ? block.remove() : '';
+	block && block.remove();
 
 	setNums();
 }

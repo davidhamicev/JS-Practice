@@ -17,7 +17,7 @@ const categories = [
 
 function filterCategories(categoris) {
 	return categories.filter(category => !category.isArchived &&
-		(category.offerCount > 0 || !category.hasOwnProperty('offerCount')));
+		(!category.hasOwnProperty('offerCount') || category.offerCount > 0));
 };
 console.log('Task-1');
 console.log("filterCategories", filterCategories(categories), '\n\n');
