@@ -55,7 +55,7 @@ const Game = {
 			return false;
 		}
 		else if (!this.gameState.includes(null)) {
-			this.gameResult.textContent = 'DRAW';
+			this.gameResult.textContent = `It's a draw!`;
 			return false;
 		}
 
