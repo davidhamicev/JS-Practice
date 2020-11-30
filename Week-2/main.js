@@ -55,7 +55,7 @@ const Game = {
 			return false;
 		}
 		else if (!this.gameState.includes(null)) {
-			console.log('ничья!');
+			this.gameResult.textContent = 'DRAW';
 			return false;
 		}
 
