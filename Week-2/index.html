@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Week-2 (Tic Tac Toe)</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./svg/tic-tac-toe.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inline+Text:wght@300;400;500;600&family=Inconsolata:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="game">
+		<div class="game__title">tic-tac-toe</div>
+		<div class="game__player">
+			Turn: <span class="game__player-cur"></span>
+		</div>
+		<div class="game__table">
+			<div class="game__cell" data-cell-id="0"></div> <!-- -tac -->
+			<div class="game__cell" data-cell-id="1"></div> <!-- -tic -->
+			<div class="game__cell" data-cell-id="2"></div>
+			<div class="game__cell" data-cell-id="3"></div>
+			<div class="game__cell" data-cell-id="4"></div>
+			<div class="game__cell" data-cell-id="5"></div>
+			<div class="game__cell" data-cell-id="6"></div>
+			<div class="game__cell" data-cell-id="7"></div>
+			<div class="game__cell" data-cell-id="8"></div>
+		</div>
+		<div class="game__result"></div>
+		<div class="game__restart">New game</div>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html>
