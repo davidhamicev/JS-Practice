@@ -11,8 +11,9 @@ body {
 	justify-content: center;
 	font-family: 'Inconsolata', monospace;
 }
-.game {
-	width: 800px;
+.game-1,
+.game-2 {
+	width: 600px;
 	height: 600px;
 	margin: auto auto;
 	display: flex;
